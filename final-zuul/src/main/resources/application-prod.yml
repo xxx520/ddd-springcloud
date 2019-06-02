@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-node1:16363/eureka/,http://eureka-node2:16363/eureka/
+server:
+  port: 16350
+spring:
+  application:
+    name: final-zuul
+zuul:
+  host:
+    socket-timeout-millis: 6000
+    connect-timeout-millis: 6000
+  sensitive-headers: 
+#zuul:
+#  routes:
+#    api-a:
+#      path: /api-a/**
+#      serviceId: spring-cloud-test1
+
+ribbon:
+  ReadTimeout: 9000
+  ConnectTimeout: 6000

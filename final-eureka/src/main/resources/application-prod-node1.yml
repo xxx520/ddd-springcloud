@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: final-eureka
+
+server:
+  port: 16363
+eureka:
+  instance:
+    hostname: eureka-node1
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 60000
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-node2:${server.port}/eureka/
+
+#spring.security.user.name=yugh
+#spring.security.user.password=yugh

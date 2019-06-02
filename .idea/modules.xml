@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/final-eureka/final-eureka.iml" filepath="$PROJECT_DIR$/final-eureka/final-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/final-springcloud.iml" filepath="$PROJECT_DIR$/.idea/final-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/final-zuul/final-zuul.iml" filepath="$PROJECT_DIR$/final-zuul/final-zuul.iml" />
+    </modules>
+  </component>
+</project>
