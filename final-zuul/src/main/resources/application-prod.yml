@@ -17,7 +17,3 @@ zuul:
 #    api-a:
 #      path: /api-a/**
 #      serviceId: spring-cloud-test1
-
-ribbon:
-  ReadTimeout: 9000
-  ConnectTimeout: 6000
