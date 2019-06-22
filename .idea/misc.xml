@@ -30,11 +30,15 @@
         <option value="$PROJECT_DIR$/yd-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/final-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/final-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/.idea/final-springcloud.iml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
