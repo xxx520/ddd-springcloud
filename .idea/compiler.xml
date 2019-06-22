@@ -6,25 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="final-eureka" />
-        <module name="final-zuul" />
-        <module name="yd-eureka" />
-        <module name="yd-zuul" />
+        <module name="ddd-eureka" />
+        <module name="ddd-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="final-eureka" target="1.8" />
-      <module name="final-zuul" target="1.8" />
-      <module name="yd-eureka" target="1.8" />
-      <module name="yd-zuul" target="1.8" />
+      <module name="ddd-eureka" target="1.8" />
+      <module name="ddd-zuul" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="final-eureka" options="-parameters" />
-      <module name="final-zuul" options="-parameters" />
-      <module name="yd-eureka" options="-parameters" />
-      <module name="yd-zuul" options="-parameters" />
+      <module name="ddd-eureka" options="-parameters" />
+      <module name="ddd-zuul" options="-parameters" />
     </option>
   </component>
 </project>
