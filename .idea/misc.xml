@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/final-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/final-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-zuul/pom.xml" />
       </list>
     </option>
   </component>
