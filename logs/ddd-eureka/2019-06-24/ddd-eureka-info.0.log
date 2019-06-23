@@ -1,0 +1,11 @@
+[INFO ] 2019-06-23 23:59:34 [http-nio-8010-exec-2] c.n.e.r.AbstractInstanceRegistry [{AbstractInstanceRegistry.java} {266}] - Registered instance DDD-ZUUL/192.168.0.102:ddd-zuul:8020 with status UP (replication=false)
+[INFO ] 2019-06-23 23:59:34 [http-nio-8010-exec-3] c.n.e.r.AbstractInstanceRegistry [{AbstractInstanceRegistry.java} {266}] - Registered instance DDD-ZUUL/192.168.0.102:ddd-zuul:8020 with status UP (replication=true)
+[INFO ] 2019-06-23 23:59:34 [http-nio-8010-exec-5] c.n.e.r.AbstractInstanceRegistry [{AbstractInstanceRegistry.java} {266}] - Registered instance AUTH-CLIENT/192.168.0.102:auth-client:8030 with status UP (replication=false)
+[INFO ] 2019-06-23 23:59:34 [http-nio-8010-exec-6] c.n.e.r.AbstractInstanceRegistry [{AbstractInstanceRegistry.java} {266}] - Registered instance AUTH-CLIENT/192.168.0.102:auth-client:8030 with status UP (replication=true)
+[INFO ] 2019-06-23 23:59:34 [Eureka-EvictionTimer] c.n.e.r.AbstractInstanceRegistry [{AbstractInstanceRegistry.java} {1250}] - Running the evict task with compensationTime 0ms
+[INFO ] 2019-06-23 23:59:34 [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry [{EurekaServiceRegistry.java} {65}] - Unregistering application DDD-EUREKA with eureka with status DOWN
+[INFO ] 2019-06-23 23:59:34 [Thread-22] c.n.e.DefaultEurekaServerContext [{DefaultEurekaServerContext.java} {76}] - Shutting down ...
+[INFO ] 2019-06-23 23:59:34 [Thread-22] c.n.e.DefaultEurekaServerContext [{DefaultEurekaServerContext.java} {79}] - Shut down
+[INFO ] 2019-06-23 23:59:34 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor [{ExecutorConfigurationSupport.java} {208}] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-23 23:59:34 [Thread-22] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {888}] - Shutting down DiscoveryClient ...
+[INFO ] 2019-06-23 23:59:34 [Thread-22] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {911}] - Completed shut down of DiscoveryClient
