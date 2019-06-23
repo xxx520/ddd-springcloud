@@ -6,7 +6,7 @@ server:
   port: 16350
 spring:
   application:
-    name: final-zuul
+    name: ddd-zuul
 zuul:
   host:
     socket-timeout-millis: 6000
