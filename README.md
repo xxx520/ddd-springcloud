@@ -8,9 +8,10 @@
 + 2：下层Springboot鉴权微服务提供正常读写库操作（如鉴权），提供方式用swagger.codegen对Controller功能生成ApiClient。
 + 3：AuthClient 拿到下层鉴权的ApiClient做功能请求接入或者返回。
 
+***
 ## :seedling: 领域驱动建模规范：
 + 路由(Route)->控制器(Controller)->接口(Api)->服务(Service)->仓库(Repository)->工厂(Factory)->实体(Entity)
-
+***
 ## :ear_of_rice: service = Springboot各个微服务组件
 ***
 ## :whale: *简单架构示意图*
