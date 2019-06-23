@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
+        <module name="ddd-authclient" />
+        <module name="ddd-authservice" />
         <module name="ddd-eureka" />
         <module name="ddd-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
+      <module name="ddd-authclient" target="1.8" />
+      <module name="ddd-authservice" target="1.8" />
       <module name="ddd-eureka" target="1.8" />
       <module name="ddd-zuul" target="1.8" />
       <module name="spring-cloud" target="1.8" />
@@ -18,6 +24,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth-service" options="-parameters" />
+      <module name="ddd-authclient" options="-parameters" />
+      <module name="ddd-authservice" options="-parameters" />
       <module name="ddd-eureka" options="-parameters" />
       <module name="ddd-zuul" options="-parameters" />
     </option>

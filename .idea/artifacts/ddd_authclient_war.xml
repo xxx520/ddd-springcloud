@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ddd-authclient:war">
+    <output-path>$PROJECT_DIR$/ddd-authclient/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ddd-authclient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ddd-authclient-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ddd-authclient:war exploded" />
+    </root>
+  </artifact>
+</component>
