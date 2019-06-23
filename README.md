@@ -12,4 +12,4 @@
 ## :ear_of_rice: service = Springboot各个微服务组件
 ***
 ## *简单架构示意图*
-![Image text](https://raw.githubusercontent.com/yugenhai108/spring-security-auth/master/src/main/resources/springcloud-other.jpg)
+![Image text](https://github.com/yugenhai108/ddd-springcloud/blob/master/springcloud-ddd.jpg)
