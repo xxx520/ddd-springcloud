@@ -22,7 +22,7 @@
 		<module>ddd-eureka</module>
 		<module>ddd-zuul</module>
 		<module>ddd-authclient</module>
-		<module>auth-service</module>
+		<module>ddd-authservice</module>
 	</modules>
 
 	<properties>
