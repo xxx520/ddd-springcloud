@@ -20,6 +20,9 @@
       </map>
     </option>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ddd-authclient" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -33,6 +36,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ddd-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/ddd-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-authclient/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-authservice/pom.xml" />
       </list>
     </option>
   </component>

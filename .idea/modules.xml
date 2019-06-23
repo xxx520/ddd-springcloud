@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-authclient/ddd-authclient.iml" filepath="$PROJECT_DIR$/ddd-authclient/ddd-authclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddd-authservice/ddd-authservice.iml" filepath="$PROJECT_DIR$/ddd-authservice/ddd-authservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd-eureka/ddd-eureka.iml" filepath="$PROJECT_DIR$/ddd-eureka/ddd-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddd-zuul/ddd-zuul.iml" filepath="$PROJECT_DIR$/ddd-zuul/ddd-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/final-springcloud.iml" filepath="$PROJECT_DIR$/.idea/final-springcloud.iml" />
