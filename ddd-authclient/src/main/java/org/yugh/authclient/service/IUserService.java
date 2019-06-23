@@ -6,7 +6,7 @@ import org.yugh.authclient.domain.dto.UserDto;
 import org.yugh.authclient.utils.ResultJson;
 
 /**
- * //用户鉴权业务层
+ * //
  *
  * @author: 余根海
  * @creation: 2019-04-08 16:29

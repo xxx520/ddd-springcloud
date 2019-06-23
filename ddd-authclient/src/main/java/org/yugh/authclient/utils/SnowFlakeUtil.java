@@ -15,14 +15,10 @@ import lombok.extern.slf4j.Slf4j;
 public class SnowFlakeUtil {
 
 
-    static final Snowflake SNOWFLAKE = IdUtil.createSnowflake(1, 1);
+    static final Snowflake snowflake = IdUtil.createSnowflake(1, 1);
 
-    /**
-     * 偏移时间
-     * @return
-     */
     public static Long nextWaterFlow() {
-        return SNOWFLAKE.nextId();
+        return snowflake.nextId();
     }
 
 

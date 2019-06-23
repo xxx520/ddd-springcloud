@@ -14,6 +14,7 @@ import org.yugh.authclient.entity.auth.RoleEntity;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * //生成Token
  *
@@ -23,8 +24,8 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 @Component
 public class JwtUtils {
-
     public static final String ROLE_REFRESH_TOKEN = "ROLE_REFRESH_TOKEN";
+
     private static final String CLAIM_KEY_USER_ID = "user_id";
     private static final String CLAIM_KEY_AUTHORITIES = "scope";
 

@@ -71,8 +71,8 @@ public class UserServiceImpl implements IUserService {
     /**
      * 自定义
      */
-    private final AuthenticationManager authenticationManager;
-    private final UserDetailsService userDetailsService;
+    protected final AuthenticationManager authenticationManager;
+    protected final UserDetailsService userDetailsService;
 
 
     @Autowired

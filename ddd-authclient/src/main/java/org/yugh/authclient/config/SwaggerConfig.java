@@ -13,7 +13,13 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
+/**
+ * //swagger简易API访问路径
+ *
+ * @author: 余根海
+ * @creation: 2019-04-09 18:17
+ * @Copyright © 2019 yugenhai. All rights reserved.
+ */
 @EnableSwagger2
 @Configuration
 @Slf4j
