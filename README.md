@@ -13,7 +13,7 @@
 + 路由(Route)->控制器(Controller)->接口(Api)->服务(Service)->仓库(Repository)->工厂(Factory)->实体(Entity)
 ***
 ## :ear_of_rice: service = Springboot各个微服务组件
-## :four_leaf_clover: ~~目前的简易swagger页面路径,很多没有完善：~
+## :four_leaf_clover: ~~目前是简易swagger页面路径，需要慢慢完善（比如完整从基层到鉴权端输出调用方式 || 加swagger带Token注解）：~~
 
 + eureka url :http://localhost:8010/
 + auth client url :http://localhost:8030/swagger-ui.html
