@@ -56,7 +56,6 @@
           <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.1.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-archaius:2.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.8" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.1.1.RELEASE" />
@@ -125,8 +124,18 @@
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-core:10.1.0" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-slf4j:10.1.0" />
           <element id="library" level="project" name="Maven: io.github.openfeign:feign-hystrix:10.1.0" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-netflix-ribbon:2.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" />
           <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" />
+          <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-serialization:1.5.18" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.9.8" />
+          <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-metrics-event-stream:1.5.18" />
+          <element id="library" level="project" name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:5.0.4" />
+          <element id="library" level="project" name="Maven: io.reactivex:rxjava-reactive-streams:1.2.1" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+          <element id="library" level="project" name="Maven: javax.interceptor:javax.interceptor-api:1.2.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-data-redis:2.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:2.1.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:2.1.8.RELEASE" />
@@ -140,7 +149,6 @@
           <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.36.Final" />
           <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.36.Final" />
           <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.5.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
