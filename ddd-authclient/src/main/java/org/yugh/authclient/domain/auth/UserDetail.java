@@ -42,10 +42,7 @@ public class UserDetail implements UserDetails {
         this.password = password;
     }
 
-    /**
-     * 返回分配给用户的角色列表
-     * @return
-     */
+    //返回分配给用户的角色列表
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         List<GrantedAuthority> authorities = new ArrayList<>();

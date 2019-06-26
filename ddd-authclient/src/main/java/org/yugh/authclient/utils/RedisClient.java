@@ -72,13 +72,6 @@ public class RedisClient {
 	}
 
 
-	/**
-	 * 分布式锁
-	 * @param key
-	 * @param value
-	 * @param expireTime
-	 * @return
-	 */
 	public boolean setNx(final String key, String value, Long expireTime){
 		boolean set = redisTemplate.opsForValue().setIfAbsent(key, value, expireTime, TimeUnit.SECONDS);
 		return set;

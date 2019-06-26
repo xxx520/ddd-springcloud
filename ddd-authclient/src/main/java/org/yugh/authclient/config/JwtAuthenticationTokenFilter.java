@@ -3,6 +3,7 @@ package org.yugh.authclient.config;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
@@ -28,6 +29,7 @@ import java.io.IOException;
  */
 @Component
 @Slf4j
+@Configuration
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
     @Value("${jwt.header}")
@@ -36,13 +38,12 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
     @Value(("${jwt.tokenHead}"))
     private String jwtTokenHeader;
 
-    private final JwtUtils jwtUtils;
-    private final RedisClient redisClient;
     @Autowired
-    public JwtAuthenticationTokenFilter(JwtUtils jwtUtils, RedisClient redisClient){
-        this.jwtUtils = jwtUtils;
-        this.redisClient = redisClient;
-    }
+    private JwtUtils jwtUtils;
+
+    @Autowired
+    private RedisClient redisClient;
+
 
     /**
      * 不按规范,不允许通过验证

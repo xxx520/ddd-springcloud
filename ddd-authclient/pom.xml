@@ -18,7 +18,6 @@
     <artifactId>ddd-authclient</artifactId>
     <groupId>org.yugh.authclient</groupId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
 
     <name>ddd-authclient</name>
     <description>鉴权Web</description>
@@ -169,6 +168,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
         </dependency>
     </dependencies>
 

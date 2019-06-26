@@ -13,7 +13,7 @@ ${AnsiColor.BRIGHT_RED}
 * 　　　　┃　　　┃
 * 　　　　┃　　　┃
 * 　　　　┃　　　┗━━━┓
-* 　　　　┃ eureka  ┣┓
+* 　　　　┃authClient┣┓
 * 　　　　┃　　　　　┏┛
 * 　　　　┗┓┓┏━┳┓┏┛
 * 　　　　　┃┫┫　┃┫┫

@@ -1,0 +1,60 @@
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [{PostProcessorRegistrationDelegate.java} {330}] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$93d56f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-24 00:00:01 [main] org.yugh.DddZuulApplication [{SpringApplication.java} {675}] - No active profile set, falling back to default profiles: default
+[INFO ] 2019-06-24 00:00:01 [main] o.s.cloud.context.scope.GenericScope [{GenericScope.java} {295}] - BeanFactory id=6438ee38-e9ae-3bd6-88f9-238027dde271
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [{PostProcessorRegistrationDelegate.java} {330}] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$93d56f34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-06-24 00:00:01 [main] o.s.b.w.e.tomcat.TomcatWebServer [{TomcatWebServer.java} {90}] - Tomcat initialized with port(s): 8020 (http)
+[INFO ] 2019-06-24 00:00:01 [main] o.a.coyote.http11.Http11NioProtocol [{DirectJDKLog.java} {173}] - Initializing ProtocolHandler ["http-nio-8020"]
+[INFO ] 2019-06-24 00:00:01 [main] o.a.catalina.core.StandardService [{DirectJDKLog.java} {173}] - Starting service [Tomcat]
+[INFO ] 2019-06-24 00:00:01 [main] o.a.catalina.core.StandardEngine [{DirectJDKLog.java} {173}] - Starting Servlet engine: [Apache Tomcat/9.0.19]
+[INFO ] 2019-06-24 00:00:01 [main] o.a.c.c.C.[Tomcat].[localhost].[/] [{DirectJDKLog.java} {173}] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-06-24 00:00:01 [main] o.s.web.context.ContextLoader [{ServletWebServerApplicationContext.java} {296}] - Root WebApplicationContext: initialization completed in 1285 ms
+[INFO ] 2019-06-24 00:00:01 [main] c.n.c.sources.URLConfigurationSource [{URLConfigurationSource.java} {122}] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-24 00:00:01 [main] c.n.config.DynamicPropertyFactory [{DynamicPropertyFactory.java} {281}] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3bb87d36
+[INFO ] 2019-06-24 00:00:01 [main] c.n.c.sources.URLConfigurationSource [{URLConfigurationSource.java} {122}] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-06-24 00:00:01 [main] o.s.s.c.ThreadPoolTaskExecutor [{ExecutorConfigurationSupport.java} {171}] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.n.zuul.ZuulFilterInitializer [{ZuulFilterInitializer.java} {67}] - Starting filter initializer
+[INFO ] 2019-06-24 00:00:01 [main] o.s.b.a.e.web.EndpointLinksResolver [{EndpointLinksResolver.java} {59}] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.n.eureka.InstanceInfoFactory [{InstanceInfoFactory.java} {72}] - Setting initial instance status as: STARTING
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {349}] - Initializing Eureka in region us-east-1
+[INFO ] 2019-06-24 00:00:01 [main] c.n.d.p.DiscoveryJerseyProvider [{DiscoveryJerseyProvider.java} {70}] - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-06-24 00:00:01 [main] c.n.d.p.DiscoveryJerseyProvider [{DiscoveryJerseyProvider.java} {71}] - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-06-24 00:00:01 [main] c.n.d.p.DiscoveryJerseyProvider [{DiscoveryJerseyProvider.java} {80}] - Using XML encoding codec XStreamXml
+[INFO ] 2019-06-24 00:00:01 [main] c.n.d.p.DiscoveryJerseyProvider [{DiscoveryJerseyProvider.java} {81}] - Using XML decoding codec XStreamXml
+[INFO ] 2019-06-24 00:00:01 [main] c.n.d.s.r.aws.ConfigClusterResolver [{ConfigClusterResolver.java} {43}] - Resolving eureka endpoints via configuration
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {958}] - Disable delta property : false
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {959}] - Single vip registry refresh property : null
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {960}] - Force full registry fetch : false
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {961}] - Application is null : false
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {962}] - Registered Applications size is zero : true
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {964}] - Application version is -1: true
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1047}] - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1056}] - The response status is 200
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1270}] - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-06-24 00:00:01 [main] c.n.discovery.InstanceInfoReplicator [{InstanceInfoReplicator.java} {60}] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {449}] - Discovery Client initialized at timestamp 1561305605258 with initial instances count: 0
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.n.e.s.EurekaServiceRegistry [{EurekaServiceRegistry.java} {41}] - Registering application DDD-ZUUL with eureka with status UP
+[INFO ] 2019-06-24 00:00:01 [main] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1305}] - Saw local status change event StatusChangeEvent [timestamp=1561305605263, current=UP, previous=STARTING]
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {826}] - DiscoveryClient_DDD-ZUUL/192.168.0.102:ddd-zuul:8020: registering service...
+[INFO ] 2019-06-24 00:00:01 [main] o.a.coyote.http11.Http11NioProtocol [{DirectJDKLog.java} {173}] - Starting ProtocolHandler ["http-nio-8020"]
+[INFO ] 2019-06-24 00:00:01 [main] o.s.b.w.e.tomcat.TomcatWebServer [{TomcatWebServer.java} {204}] - Tomcat started on port(s): 8020 (http) with context path ''
+[INFO ] 2019-06-24 00:00:01 [main] o.s.c.n.e.s.EurekaAutoServiceRegistration [{EurekaAutoServiceRegistration.java} {143}] - Updating port to 8020
+[INFO ] 2019-06-24 00:00:01 [main] org.yugh.DddZuulApplication [{StartupInfoLogger.java} {59}] - Started DddZuulApplication in 4.418 seconds (JVM running for 5.067)
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {835}] - DiscoveryClient_DDD-ZUUL/192.168.0.102:ddd-zuul:8020 - registration status: 204
+[INFO ] 2019-06-24 00:00:01 [RMI TCP Connection(2)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/] [{DirectJDKLog.java} {173}] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-06-24 00:00:01 [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet [{FrameworkServlet.java} {524}] - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-06-24 00:00:01 [RMI TCP Connection(2)-192.168.0.102] o.s.web.servlet.DispatcherServlet [{FrameworkServlet.java} {546}] - Completed initialization in 7 ms
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {958}] - Disable delta property : false
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {959}] - Single vip registry refresh property : null
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {960}] - Force full registry fetch : false
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {961}] - Application is null : false
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {962}] - Registered Applications size is zero : true
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {964}] - Application version is -1: false
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1047}] - Getting all instance registry info from the eureka server
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-CacheRefreshExecutor-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {1056}] - The response status is 200
+[INFO ] 2019-06-24 00:00:01 [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry [{EurekaServiceRegistry.java} {65}] - Unregistering application DDD-ZUUL with eureka with status DOWN
+[INFO ] 2019-06-24 00:00:01 [DiscoveryClient-InstanceInfoReplicator-0] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {826}] - DiscoveryClient_DDD-ZUUL/192.168.0.102:ddd-zuul:8020: registering service...
+[INFO ] 2019-06-24 00:00:01 [Thread-15] o.s.c.n.zuul.ZuulFilterInitializer [{ZuulFilterInitializer.java} {79}] - Stopping filter initializer
+[INFO ] 2019-06-24 00:00:01 [Thread-15] o.s.s.c.ThreadPoolTaskExecutor [{ExecutorConfigurationSupport.java} {208}] - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-06-24 00:00:01 [Thread-15] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {888}] - Shutting down DiscoveryClient ...
+[INFO ] 2019-06-24 00:00:01 [Thread-15] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {922}] - Unregistering ...
+[INFO ] 2019-06-24 00:00:01 [Thread-15] c.netflix.discovery.DiscoveryClient [{DiscoveryClient.java} {911}] - Completed shut down of DiscoveryClient
