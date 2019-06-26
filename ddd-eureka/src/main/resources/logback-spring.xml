@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <!--logback按代码里级别输出到不同level目录 by yugenhai -->
-    <property name="PROJECT" value="ddd-authclient"/>
-    <property name="ROOT" value="logs/ddd-authclient/"/>
-    <property name="FILESIZE" value="50MB"/>
+    <property name="PROJECT" value="ddd-eureka"/>
+    <property name="ROOT" value="logs/ddd-eureka/"/>
+    <property name="FILESIZE" value="100MB"/>
     <property name="MAXHISTORY" value="100"/>
     <timestamp key="DATETIME" datePattern="yyyy-MM-dd HH:mm:ss"/>
     <!-- 控制台打印 -->

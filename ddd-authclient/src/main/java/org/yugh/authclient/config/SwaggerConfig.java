@@ -20,20 +20,21 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @creation: 2019-04-09 18:17
  * @Copyright © 2019 yugenhai. All rights reserved.
  */
+@Slf4j
 @EnableSwagger2
 @Configuration
-@Slf4j
 public class SwaggerConfig {
 
-    @Value("${spring.application.name}")
-    private String configName;
+    @Value("${spring.profiles.active}")
+    private String deployType ;
+    @Value(("${server.port}"))
+    private String serverPort;
 
-    private Contact contact = new Contact("spring-security-auth", "localhost:8080/swagger-ui.html", "yugenhai108@gmail.com");
+    private Contact contact = new Contact("ddd-auth-client", "localhost:${serverPort}/swagger-ui.html", "yugenhai108@gmail.com");
 
     @Bean
     public Docket createRestApi() {
-        log.info("=============> swagger2 config ............");
-        log.info("SpringCloudApplication start . \n-----------------------------------------config file name ==> [{}]\n ", configName);
+        log.info("\n =============> swagger config ............ deployType = {}, serverPort = {}", deployType, serverPort);
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.any())
@@ -44,8 +45,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("平台接口 v1.0")
-                .description("平台接口")
+                .title("auth-client接口API")
+                .description("auth-client说明文档")
                 .contact(contact)
                 .version("1.0")
                 .build();
