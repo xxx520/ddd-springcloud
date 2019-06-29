@@ -2,7 +2,8 @@
 
 ***
 ##  :four_leaf_clover: Eureka and Zuul Component </br>
-+ 企业级并发量不高。Eureka负责提供注册，Zuul作为定期拉取注册中心存活的微服务，亦在Zuul网关里设置限流和负载异常捕获。
++ 企业级微服务架构相对于互联网的（eureka->gateway->monitor->config->springboot）设计上可以封闭，或者方便一些。开发人员安排上也不会过多去招人来开发。本人开发过上述的互联网微服务架构，相对于来说本项目的架构较为轻便也可以说是方便。</br>
++ 本项目Eureka负责提供注册，Zuul作为定期拉取注册中心存活的微服务，亦在Zuul网关里设置限流和负载异常捕获。
 ## :hibiscus: AuthClient and Springboot </br>
 + 1：AuthClient 作为一个Web做鉴权操作（Spring Security），拦截非login、auth等请求。
 + 2：下层Springboot鉴权微服务提供正常读写库操作（如鉴权），提供方式用swagger.codegen对Controller功能生成ApiClient。
