@@ -3,7 +3,7 @@
 ***
 ##  :four_leaf_clover: Eureka and Zuul Component </br>
 + 1：相对于互联网的（eureka->gateway->monitor->config->springboot）设计方式。
-在领域驱动架构设计上可以很方便对每个建模的对象进行Events事件发起到触发或结束的监听，比如一个场景，建模了user，在某一个事件发起时，可以创建一个UserEvents，registerEvent到当前user里，那么在其他地方操作某一个事件并带了该用户，那么久可以拿到该建模用户里的注册事件的操作记录。
+在领域驱动架构设计上可以很方便对每个建模的对象进行Events事件发起到触发或结束的监听。比如一个场景：建模了user，在某一个事件发起时，可以创建一个UserEvents，registerEvent到当前user里，那么在其他地方操作某一个事件并带了该用户，那么就可以拿到该建模用户里的注册事件的操作记录。
 + 2：企业级并发量不高。Eureka负责提供注册，Zuul作为定期拉取注册中心存活的微服务，亦在Zuul网关里设置限流和负载异常捕获。
 ## :hibiscus: AuthClient and Springboot </br>
 + 1：AuthClient 作为一个Web做鉴权操作（Spring Security），拦截非login、auth等请求。
