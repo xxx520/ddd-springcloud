@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93001c75-fb74-4843-bc87-57dd6c236359" name="Default Changelist" comment="Add framework pic">
+    <list default="true" id="93001c75-fb74-4843-bc87-57dd6c236359" name="Default Changelist" comment="modify url">
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/fallback/TradePaymentFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/TradePaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentFailFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentTimeOutFallbackImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/AbstractOrderSequenceRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ddd-authclient/ddd-authclient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/ddd-authclient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-authclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ddd-authclient/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ddd-authclient/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ddd-authclient/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-authclient/2019-06-24/ddd-authclient-debug.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-authclient/2019-06-24/ddd-authclient-error.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-authclient/2019-06-24/ddd-authclient-info.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-authclient/2019-06-24/ddd-authclient-trace.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-authclient/2019-06-24/ddd-authclient-warn.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-23/ddd-eureka-debug.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-23/ddd-eureka-error.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-23/ddd-eureka-info.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-23/ddd-eureka-trace.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-23/ddd-eureka-warn.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-eureka/2019-06-24/ddd-eureka-info.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-zuul/2019-06-24/ddd-zuul-debug.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-zuul/2019-06-24/ddd-zuul-error.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-zuul/2019-06-24/ddd-zuul-info.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-zuul/2019-06-24/ddd-zuul-trace.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ddd-zuul/2019-06-24/ddd-zuul-warn.0.log" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/final-zuul/target/" />
     <ignored path="$PROJECT_DIR$/final-eureka/target/" />
@@ -39,37 +67,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/ExceptionController.java">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/LoggerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="472">
+              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/DddAuthClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-eureka/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/AbstractOrderSequenceRandom.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/fallback/TradePaymentFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/logback-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddd-eureka/src/main/resources/banner.txt">
+        <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/domain/AbstractAggregateRoot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="336">
+              <caret line="49" selection-start-line="48" selection-end-line="49" />
+              <folding>
+                <element signature="e#2292#2293#0" expanded="true" />
+                <element signature="e#2348#2349#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,9 +170,15 @@
     <findStrings>
       <find>#集群eureka 节点间互相注册</find>
       <find>jWT</find>
+      <find>登陆失败</find>
+      <find>LOGIN_ERROR</find>
+      <find>调用失败</find>
+      <find>进入错误熔断</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>进入错误熔断</replace>
+      <replace>进入超时熔断</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -103,16 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/ddd-eureka/src/main/java/org/yugh/eureka/DddEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/ddd-zuul/src/main/java/org/yugh/DddZuulApplication.java" />
-        <option value="$PROJECT_DIR$/ddd-zuul/src/main/java/org/yugh/zuul/controller/ErrorHandlerController.java" />
-        <option value="$PROJECT_DIR$/pom.xml.bak" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/DddAuthclientApplication.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/DddAuthClientApplication.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Phone.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/GuavaCacheUtil.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/AbstractEntity.java" />
         <option value="$PROJECT_DIR$/ddd-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/ddd-zuul/pom.xml" />
@@ -125,7 +204,6 @@
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/eureka/DddAuthClientApplication.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/scheduled/ScheduleService.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/ResultJson.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/SnowFlakeUtil.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/JwtUtils.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/IUserService.java" />
@@ -138,9 +216,7 @@
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/RoleEntity.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/UserEntity.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/UserRoleEntity.java" />
@@ -150,18 +226,31 @@
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/UserRepository.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/RoleRepository.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/ddd-authclient/pom.xml" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ddd-authservice/src/main/java/org/yugh/authservice/Application.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/ddd-authclient/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/AbstractOrderSequenceRandom.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Constant.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/fallback/UserFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentFailFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentTimeOutFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/TradePaymentService.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/fallback/TradePaymentFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/ddd-authclient/pom.xml" />
+        <option value="$PROJECT_DIR$/ddd-authclient/src/main/resources/logback-spring.xml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/develop/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="$USER_HOME$/develop/apache-maven-3.6.1/conf/settings.xml" />
+        <option name="mavenHome" value="$USER_HOME$/develop/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/develop/apache-maven-3.5.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -174,14 +263,14 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,14 +302,6 @@
               <item name="ddd-authclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ddd-authclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,16 +325,13 @@
             <path>
               <item name="ddd-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ddd-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ddd-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ddd-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
     </panes>
   </component>
@@ -265,24 +343,29 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561538136302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561800504271" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.yugh.authclient.feign.impl" />
+      <recent name="org.yugh.authclient.feign" />
+      <recent name="org.yugh.authclient.fallback" />
+      <recent name="org.yugh.authclient.constants" />
+      <recent name="org.yugh.authclient.utils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient" />
       <recent name="$PROJECT_DIR$/ddd-authclient/src/main/resources" />
       <recent name="$PROJECT_DIR$/ddd-authclient/src/test/java/org/yugh/authclient" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.yugh.authclient.constants" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +386,27 @@
     </option>
     <option name="contentProportion" value="0.23026316" />
   </component>
-  <component name="RunManager" selected="Spring Boot.DddAuthClientApplication">
+  <component name="RunManager" selected="Spring Boot.DddAuthClientApplication (1)">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ddd-authservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.yugh.authservice.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DddAuthClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ddd-authclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yugh.authclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.yugh.authclient.DddAuthClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DddAuthClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ddd-authclient" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.yugh.eureka.DddAuthClientApplication" />
@@ -332,7 +435,14 @@
       <item itemvalue="Spring Boot.DddEurekaApplication" />
       <item itemvalue="Spring Boot.DddZuulApplication" />
       <item itemvalue="Spring Boot.DddAuthClientApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.DddAuthClientApplication (1)" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DddAuthClientApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
@@ -359,6 +469,16 @@
       <workItem from="1561218679061" duration="745000" />
       <workItem from="1561219611910" duration="9965000" />
       <workItem from="1561280239496" duration="4381000" />
+      <workItem from="1561540523049" duration="882000" />
+      <workItem from="1561549227028" duration="2304000" />
+      <workItem from="1561551773331" duration="5628000" />
+      <workItem from="1561570532859" duration="611000" />
+      <workItem from="1561615096945" duration="5673000" />
+      <workItem from="1561626846225" duration="140000" />
+      <workItem from="1561629319980" duration="307000" />
+      <workItem from="1561711960511" duration="4416000" />
+      <workItem from="1561785317707" duration="1031000" />
+      <workItem from="1561796808015" duration="3148000" />
     </task>
     <task id="LOCAL-00001" summary="new branch">
       <created>1560773853116</created>
@@ -395,16 +515,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561269781573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modify url">
+      <created>1561538129773</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561538129773</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modify url">
+      <created>1561538156360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561538156360</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42885000" />
+    <option name="totallyTimeSpent" value="67167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30829757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +549,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23692308" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38307694" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3828892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,15 +560,16 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119615" side_tool="true" weight="0.15658915" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.36153847" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.56153846" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49880382" visible="true" weight="0.29278642" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3604488" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.5610098" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49880382" weight="0.48106593" />
       <window_info anchor="bottom" id="SQL" order="16" />
       <window_info anchor="bottom" id="Tail" order="17" />
+      <window_info anchor="bottom" id="Statistic" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.14193083" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1416309" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
@@ -451,353 +587,529 @@
     <MESSAGE value="add notes" />
     <MESSAGE value="DDD领域驱动企业级全局调整" />
     <MESSAGE value="Add framework pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add framework pic" />
+    <MESSAGE value="modify url" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify url" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/BaseDetailsServiceImpl.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/BaseDetailsServiceImpl.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/BaseDetailsServiceImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationEntryPoint.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationEntryPoint.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/RestAuthenticationAccessDeniedHandler.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/RestAuthenticationAccessDeniedHandler.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/eureka/DddAuthClientApplication.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/CodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/GuavaCacheUtil.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-715">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="162">
+          <caret line="138" column="40" selection-start-line="138" selection-start-column="40" selection-end-line="138" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/IUserService.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="184">
+          <caret line="732" lean-forward="true" selection-start-line="732" selection-end-line="732" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/ResultJson.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/HttpSecurityBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="162">
+          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/SecurityConfigurerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="166">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Optional.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/auth/UserDetail.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractHttpConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#2489#2490#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/scheduled/ScheduleService.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/RedisConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationTokenFilter.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/domain/DomainEvents.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="255">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/annotation/Transient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/scheduled/ScheduledTask.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/SnowFlakeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/ExceptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/AbstractEntity.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/BaseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/InstantLongConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/UserRoleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="300">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="240">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/exception/CustomerException.java">
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/CsrfConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/exception/DefaultExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/develop/maven-repository/com/querydsl/querydsl-jpa/4.2.1/querydsl-jpa-4.2.1.jar!/com/querydsl/jpa/impl/JPAQueryFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        <state relative-caret-position="690">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding>
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/develop/maven-repository/com/querydsl/querydsl-jpa/4.2.1/querydsl-jpa-4.2.1.jar!/com/querydsl/jpa/impl/AbstractJPAQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/develop/maven-repository/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.jar!/com/querydsl/core/QueryResults.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/auth/RoleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar!/org/springframework/data/querydsl/QuerydslPredicateExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/LoggerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/UserRoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/BaseDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3765#3766#0" expanded="true" />
+            <element signature="e#3794#3795#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="1215">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisProperties.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/service/impl/BaseDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="525">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#2379#2380#0" expanded="true" />
-            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/repository/auth/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/auth/ResponseUserToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/auth/UserDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar!/org/hibernate/validator/constraints/CompositionType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/BaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/ddd/InstantLongConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/maven-repository/cn/hutool/hutool-all/4.1.19/hutool-all-4.1.19.jar!/cn/hutool/core/util/IdUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/SnowFlakeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/LoggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar!/org/springframework/data/domain/AbstractAggregateRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="49" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/DataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/AbstractOrderSequenceRandom.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/maven-repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/JwtAuthenticationEntryPoint.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/domain/CodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/PrimaryConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/RestAuthenticationAccessDeniedHandler.java">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/TradePaymentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-398">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/config/ScheduledConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/utils/JwtUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/entity/goods/GoodsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-authservice/src/main/java/org/yugh/authservice/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ddd-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentFailFallbackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/constants/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/feign/impl/TradePaymentTimeOutFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-eureka/src/main/java/org/yugh/eureka/DddEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authservice/src/main/java/org/yugh/authservice/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authservice/src/main/java/org/yugh/authservice/feign/IndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authservice/src/main/java/org/yugh/authservice/feign/impl/IndexServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/fallback/TradePaymentFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/java/org/yugh/authclient/DddAuthClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/develop/maven-repository/org/springframework/boot/spring-boot-starter-parent/2.1.5.RELEASE/spring-boot-starter-parent-2.1.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-eureka/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-eureka/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="162">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ddd-authclient/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>

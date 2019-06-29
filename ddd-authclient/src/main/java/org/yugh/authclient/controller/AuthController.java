@@ -16,7 +16,6 @@ import org.yugh.authclient.service.IUserService;
 import org.yugh.authclient.utils.ResultJson;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 
 /**
  * //用户相关
@@ -44,7 +43,7 @@ public class AuthController {
      */
     @PostMapping(value = "/login")
     @ApiOperation(value = "登陆", notes = "登陆成功返回token")
-    public ResultJson<ResponseUserToken> login(@Valid @RequestBody UserDto userDto) {
+    public ResultJson<ResponseUserToken> login( @RequestBody UserDto userDto) {
         final ResponseUserToken response = userService.login(userDto.getName(), userDto.getPassword());
         return ResultJson.ok(response);
     }
@@ -57,7 +56,7 @@ public class AuthController {
      */
     @GetMapping(value = "/logout")
     @ApiOperation(value = "登出", notes = "退出登陆")
-    @ApiImplicitParams({@ApiImplicitParam(name = "授权", value = "授权 token", required = true, dataType = "string", paramType = "header")})
+    //@ApiImplicitParams({@ApiImplicitParam(name = "授权", value = "授权 token", required = true, dataType = "string", paramType = "header")})
     public ResultJson logout(HttpServletRequest request) {
         String token = request.getHeader(tokenHeader);
         if (token == null) {
@@ -75,7 +74,8 @@ public class AuthController {
      */
     @GetMapping(value = "/user")
     @ApiOperation(value = "根据token获取用户信息", notes = "根据token获取用户信息")
-    @ApiImplicitParams({@ApiImplicitParam(name = "授权", value = "授权 token", required = true, dataType = "string", paramType = "header")})
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "授权", value = "授权 token", required = true, dataType = "string", paramType = "header")})
     public ResultJson getUser(HttpServletRequest request) {
         String token = request.getHeader(tokenHeader);
         if (token == null) {

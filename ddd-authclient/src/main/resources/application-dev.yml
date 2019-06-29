@@ -12,6 +12,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8010/eureka/
+      #defaultZone: http://${EUREKA_HOST:10.16.208.24}:${EUREKA_PORT:6200}/eureka/
 
 spring:
   application:
@@ -62,4 +63,4 @@ jwt:
   #token有效期一天
   #expiration: 86400
   expiration: 604800
-  tokenHead: "token "
+  tokenHead: "Bearer "
