@@ -1,5 +1,13 @@
 package org.yugh.authclient.config;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.jdbc.DataSourceBuilder;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Primary;
+
+import javax.sql.DataSource;
+
 /**
  * //多个数据源管理
  *
@@ -12,18 +20,18 @@ package org.yugh.authclient.config;
 //@Configuration
 public class DataSourceConfig {
 
-  /**  @Bean(name = "primaryDataSource")
-    @Qualifier("primaryDataSource")
-    @ConfigurationProperties(prefix="spring.datasource.primary")
-    public DataSource userDataSource() {
+    @Bean(name = "getUserDataSource")
+    @Qualifier("getUserDataSource")
+    @ConfigurationProperties(prefix="spring.datasource.user")
+    public DataSource getUserDataSource() {
         return DataSourceBuilder.create().build();
     }
 
-    @Bean(name = "secondaryDataSource")
-    @Qualifier("secondaryDataSource")
+    @Bean(name = "getGoodsDataSource")
+    @Qualifier("getGoodsDataSource")
     @Primary
-    @ConfigurationProperties(prefix="spring.datasource.secondary")
-    public DataSource goodsDataSource() {
+    @ConfigurationProperties(prefix="spring.datasource.goods")
+    public DataSource getGoodsDataSource() {
         return DataSourceBuilder.create().build();
-    } **/
+    }
 }
